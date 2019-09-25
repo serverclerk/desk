@@ -1,11 +1,12 @@
-Odoo Install Script
+# Odoo Install Script
 
-Installation procedure
-1. Download the script:
+Installation procedure:
+
+##### 1. Download the script:
 ```
 sudo wget https://raw.githubusercontent.com/serverclerk/desk/master/odoo_install.sh
 ```
-2. Modify the parameters as you wish.
+##### 2. Modify the parameters as you wish.
 There are a few things you can configure, this is the most used list:
 OE_USER will be the username for the system user.
 INSTALL_WKHTMLTOPDF set to False if you do not want to install Wkhtmltopdf, if you want to install it you should set it to True.
