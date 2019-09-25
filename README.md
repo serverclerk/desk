@@ -13,8 +13,11 @@ OE_VERSION is the Odoo version to install, for example 12.0 for Odoo V12.
 IS_ENTERPRISE will install the Enterprise version on top of 12.0 if you set it to True, set it to False if you want the community version of Odoo 12.
 OE_SUPERADMIN is the master password for this Odoo installation.
 
-3. Make the script executable
+#### 3. Make the script executable
+```
 sudo chmod +x odoo_install.sh
-
-4. Execute the script:
-`./odoo_install.sh`
+```
+##### 4. Execute the script:
+```
+./odoo_install.sh
+```
